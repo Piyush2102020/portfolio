@@ -16,17 +16,14 @@ body{
 .stat.animated {
   transform: translateY(0px); /* Move to original position */
 }
-
-
-
-.main{
-    position: relative;
-    min-height: 100vh;
-    background-size: cover;
-    /* background: linear-gradient(to right, rgb(13, 47, 91),black); */
-    background: url("5651992.png") no-repeat center center;
-    overflow: hidden;
+.main {
+  position: relative;
+  min-height: 100vh; /* Ensure it covers the full height of the viewport */
+  width: 100vw; /* Ensure it covers the full width of the viewport */
+  background: url("5651992.png") no-repeat center center;
+  background-size: cover; /* Make sure the image covers the entire div */
 }
+
 
 .justDev {
   display: flex; 
