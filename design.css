@@ -293,8 +293,8 @@ transition: opacity 0.2s ease-in,transform 0.3s ease-in;
   border-radius: 10px;
   font-size: calc(0.8vw + 1vh);
   box-shadow: 0px 40px 50px rgba(14, 165, 189, 0.53);
-  margin: 5px;
-  padding: 10px;
+  margin: 10px 0px 10px 0px;
+  padding: 10px 0px 10px 0px;
   opacity: 0;
   background-color: rgba(34, 32, 32, 0.864);
   transition: all 0.3s ease-in-out;
@@ -317,7 +317,6 @@ transition: opacity 0.2s ease-in,transform 0.3s ease-in;
 
   .tab-lay {
     font-size: calc(1vw + 0.6vh); /* Adjust font size */
-    margin: 10px 0;
     width: 100%; /* Ensure each tab takes the full width */
   }
 }
@@ -368,7 +367,7 @@ transition: opacity 0.2s ease-in,transform 0.3s ease-in;
   border-radius: 15px;
   min-height: 30wh; /* Fixed height */
   object-fit: cover; /* Ensure the image covers the area without distortion */
-  margin-right: 10px; /* Space between image and text */
+ /* Space between image and text */
   
 }
 
@@ -495,7 +494,6 @@ li strong{
 
 .contact {
   font-size: calc(2vw + 1vh);
-  padding: 40px;
   border-radius: 8px;
   text-align: center;
   margin-top: 40px;
