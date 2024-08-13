@@ -369,6 +369,7 @@ transition: opacity 0.2s ease-in,transform 0.3s ease-in;
   min-height: 30wh; /* Fixed height */
   object-fit: cover; /* Ensure the image covers the area without distortion */
   margin-right: 10px; /* Space between image and text */
+  
 }
 
 .see-more {
